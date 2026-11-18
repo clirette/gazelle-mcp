@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+data
+# Regenerate with `npm run introspect` (Gazelle's schema, not ours to redistribute)
+docs/schema.json
+# Personal Claude Code notes
+CLAUDE.local.md

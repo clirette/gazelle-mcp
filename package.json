@@ -1,0 +1,55 @@
+{
+  "name": "gazelle-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Gazelle (gazelleapp.io): appointments, IRS mileage logs, and tax-jurisdiction summaries for piano technicians",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx --env-file-if-exists=.env src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "auth": "tsx --env-file-if-exists=.env scripts/auth.ts",
+    "introspect": "tsx --env-file-if-exists=.env scripts/introspect.ts"
+  },
+  "author": "Chase Lirette",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  },
+  "bin": {
+    "gazelle-mcp": "dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "gazelle",
+    "piano",
+    "mileage",
+    "tax"
+  ],
+  "engines": {
+    "node": ">=22.9"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clirette/gazelle-mcp.git"
+  },
+  "homepage": "https://github.com/clirette/gazelle-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/clirette/gazelle-mcp/issues"
+  }
+}
