@@ -10,7 +10,7 @@ Personal, machine-specific notes belong in `CLAUDE.local.md` (gitignored), not h
 3. **Tax jurisdiction analysis**: from appointment service locations, summarize visits and value per state/city to gauge state/local filing obligations.
 4. **Broad read access** to the rest of the account: clients, pianos, invoices/payments, inventory, service history, reminders.
 
-Ideas not yet built: revenue/expense reports, overdue invoices (needs invoice access), clients due for tuning (last service + interval), piano service history lookups, route planning for a day, quarterly estimated-tax helper, schedule gaps.
+Planned features are tracked as GitHub issues: https://github.com/clirette/gazelle-mcp/issues (`gh issue list`). Read the relevant issue before starting a feature.
 
 ## Gazelle API
 Official private GraphQL API (docs: https://gazelleapp.io/developer, schema: https://gazelleapp.io/docs/graphql/private/). POST `https://gazelleapp.io/graphql/private`, OAuth 2.0 bearer tokens (30-day access; revoked if not refreshed within 90 days). Gazelle gives no support beyond docs. Notes from live testing are in `docs/api-notes.md`.
