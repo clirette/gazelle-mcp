@@ -1,7 +1,7 @@
 {
   "name": "gazelle-mcp",
   "version": "0.1.0",
-  "description": "MCP server for Gazelle (gazelleapp.io): appointments, IRS mileage logs, and tax-jurisdiction summaries for piano technicians",
+  "description": "Unofficial MCP server for Gazelle (gazelleapp.io): appointments, IRS mileage logs, and tax-jurisdiction summaries for piano technicians. Not affiliated with Gazelle.",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx --env-file-if-exists=.env src/index.ts",

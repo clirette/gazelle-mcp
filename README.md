@@ -1,6 +1,8 @@
-# Gazelle MCP
+# Gazelle MCP (unofficial)
 
-An [MCP](https://modelcontextprotocol.io) server that connects Claude (Claude Desktop, Claude Code, or any MCP client) to your [Gazelle](https://gazelleapp.io) account, the business platform for piano technicians.
+> **Unofficial, community project.** Not made by, affiliated with, endorsed by, or supported by Gazelle. Please don't contact Gazelle support about it; [open an issue here](https://github.com/clirette/gazelle-mcp/issues) instead.
+
+An unofficial [MCP](https://modelcontextprotocol.io) server that connects Claude (Claude Desktop, Claude Code, or any MCP client) to your [Gazelle](https://gazelleapp.io) account, the business platform for piano technicians.
 
 Ask Claude things like:
 
@@ -63,7 +65,7 @@ Gazelle's API uses OAuth: you register an "Integration" (an app) once, then auth
 1. Go to **https://gazelleapp.io/developer/signup** and create a developer account (website, email, name, password). Gazelle requires your real name and email and deletes anonymous accounts.
 2. Log in at **https://gazelleapp.io/developer/login**.
 
-Gazelle's developer documentation is at https://gazelleapp.io/developer. Gazelle doesn't provide support for using the API beyond those docs, so please report problems with this project in its GitHub issues.
+Gazelle's developer documentation is at https://gazelleapp.io/developer. Gazelle doesn't provide support for using the API beyond those docs, and this project is unofficial, so please report problems in [this project's issues](https://github.com/clirette/gazelle-mcp/issues), not to Gazelle.
 
 ### 3. Register an Integration
 
@@ -209,4 +211,6 @@ Contributions are welcome, especially from technicians on Gazelle plans with inv
 
 ## License
 
-[MIT](LICENSE). Not affiliated with or endorsed by Gazelle.
+[MIT](LICENSE).
+
+This is an unofficial, independent project. It is not affiliated with, endorsed by, or supported by Gazelle. "Gazelle" is used only to describe what this software connects to.

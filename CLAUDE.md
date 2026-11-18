@@ -1,6 +1,6 @@
 # Gazelle MCP
 
-MCP server giving Claude access to a piano technician's data in **Gazelle** (gazelleapp.io), an all-in-one business platform for piano technicians. Primary uses: appointment lookups, an IRS-style mileage log, and per-jurisdiction visit/value summaries for tax filing. See README.md for user setup.
+Unofficial, community-built MCP server (not affiliated with Gazelle) giving Claude access to a piano technician's data in **Gazelle** (gazelleapp.io), an all-in-one business platform for piano technicians. Primary uses: appointment lookups, an IRS-style mileage log, and per-jurisdiction visit/value summaries for tax filing. See README.md for user setup.
 
 Personal, machine-specific notes belong in `CLAUDE.local.md` (gitignored), not here.
 
